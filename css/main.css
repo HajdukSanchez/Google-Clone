@@ -7,8 +7,7 @@
 
 html {
     font-size: 62.5%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.8rem;
+    font-family: Arial, sans-serif;
 }
 
 a {
@@ -46,6 +45,11 @@ header nav .nav-rigth-section {
 
 nav .nav-rigth-section li {
     margin: 0 0.3rem;
+    font-size: 1.3rem;
+}
+
+nav .nav-rigth-section li:hover {
+    text-decoration: underline;
 }
 
 nav .nav-rigth-section a {
@@ -69,20 +73,22 @@ nav .nav-rigth-section .menu-icon {
 nav .nav-rigth-section img {
     border-radius: 50%;
     margin-left: 1rem;
+    width: 3rem;
 }
+
 main {
-    margin-top: 3rem;
+    height: 87vh;
     text-align: center;
 }
 
 main .main-logo {
     margin: 0 auto;
     margin-bottom: 3.5rem;
-
 }
 
 main .main-logo img {
     width: 27.2rem;
+    margin-top: 20rem;
 }
 
 main .main-input {
@@ -98,7 +104,7 @@ main .main-input .main-input-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 300px;
+    min-width: 400px;
 }
 
 main .main-input .main-input-container:hover {
@@ -156,15 +162,30 @@ main .main-buttons button {
     border-radius: 0.4rem;
     padding: 0 1.5rem;
     margin-right: 1.5rem;
+    outline: none;
+}
+
+main .main-language {
+    margin-top: 3rem;
+    font-size: 1.3rem;
+}
+
+main .main-language a {
+    color: #1a0dab;
+}
+
+main .main-language a:hover {
+    text-decoration: underline;
 }
 
 main .main-buttons button:hover {
     color: #202124;
     box-shadow: 0 0.1rem 0.1rem 0 #0000001a;
 }
+
 footer {
     width: 100vw;
-    height: 8vh;
+    height: 5vh;
     /* Con esto se asegura que el footer siempre se quede hasta abajo de la página */
     position: absolute;
     bottom: 0;
