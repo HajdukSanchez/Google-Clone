@@ -162,3 +162,36 @@ main .main-buttons button:hover {
     color: #202124;
     box-shadow: 0 0.1rem 0.1rem 0 #0000001a;
 }
+footer {
+    width: 100vw;
+    height: 8vh;
+    /* Con esto se asegura que el footer siempre se quede hasta abajo de la página */
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #f2f2f2;
+    border-top: 0.1rem solid #e4e4e4;
+}
+
+footer ul {
+    margin: 1rem;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left {
+    justify-self: left;
+}
+
+footer .footer-rigth {
+    justify-self: right;
+}
+
+footer ul li a {
+    margin: 1rem;
+    color: #5f6368;
+}
