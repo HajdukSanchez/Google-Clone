@@ -70,3 +70,95 @@ nav .nav-rigth-section img {
     border-radius: 50%;
     margin-left: 1rem;
 }
+main {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+main .main-logo {
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+
+}
+
+main .main-logo img {
+    width: 27.2rem;
+}
+
+main .main-input {
+    width: 56rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
+
+main .main-input .main-input-container {
+    height: 5rem;
+    border-radius: 2.4rem;
+    border: 0.1rem solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+}
+
+main .main-input .main-input-container:hover {
+    /* Sombra al pasar el cursos sobre el input
+    Los valores que se recibe son: arriba, derecha, abajo, izquierda y color*/
+    box-shadow: 0 0.1rem 0.6rem 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .main-input .search-icon, main .main-input .micro-icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 1rem;
+}
+
+main .main-input .search-icon {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyBmb2N1c2FibGU9ImZhbHNlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTE1LjUgMTRoLS43OWwtLjI4LS4yN0E2LjQ3MSA2LjQ3MSAwIDAgMCAxNiA5LjUgNi41IDYuNSAwIDEgMCA5LjUgMTZjMS42MSAwIDMuMDktLjU5IDQuMjMtMS41N2wuMjcuMjh2Ljc5bDUgNC45OUwyMC40OSAxOWwtNC45OS01em0tNiAwQzcuMDEgMTQgNSAxMS45OSA1IDkuNVM3LjAxIDUgOS41IDUgMTQgNy4wMSAxNCA5LjUgMTEuOTkgMTQgOS41IDE0eiIvPjwvc3ZnPg==');
+    margin-left: 2rem;
+
+}
+
+main .main-input .micro-icon {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iSFBWdndiIiBmb2N1c2FibGU9ImZhbHNlIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTEyIDE1YzEuNjYgMCAzLTEuMzEgMy0yLjk3di03LjAyYzAtMS42Ni0xLjM0LTMuMDEtMy0zLjAxcy0zIDEuMzQtMyAzLjAxdjcuMDJjMCAxLjY2IDEuMzQgMi45NyAzIDIuOTd6IiBmaWxsPSIjNDI4NWY0Ii8+PHBhdGggZD0ibTExIDE4LjA4aDJ2My45MmgtMnoiIGZpbGw9IiMzNGE4NTMiLz48cGF0aCBkPSJtNy4wNSAxNi44N2MtMS4yNy0xLjMzLTIuMDUtMi44My0yLjA1LTQuODdoMmMwIDEuNDUgMC41NiAyLjQyIDEuNDcgMy4zOHYwLjMybC0xLjE1IDEuMTh6IiBmaWxsPSIjZjRiNDAwIi8+PHBhdGggZD0ibTEyIDE2LjkzYTQuOTcgNS4yNSAwIDAgMSAtMy41NCAtMS41NWwtMS40MSAxLjQ5YzEuMjYgMS4zNCAzLjAyIDIuMTMgNC45NSAyLjEzIDMuODcgMCA2Ljk5LTIuOTIgNi45OS03aC0xLjk5YzAgMi45Mi0yLjI0IDQuOTMtNSA0LjkzeiIgZmlsbD0iI2VhNDMzNSIvPjwvc3ZnPg==');
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+main .main-input .main-input-container input {
+    width: 90%;
+    height: 80%;
+    border: none;
+    /* Para que no salga la linea del borde al darle click a la caja */
+    outline: none;
+    padding-left: 1.5rem;
+    font-size: 1.6rem;
+}
+
+main .main-buttons {
+    width: 40%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+main .main-buttons div {
+    display: inline-block;
+}
+
+main .main-buttons button {
+    height: 3.6rem;
+    background-color: #f8f9fa;
+    border: 0;
+    font-size: 1.4rem;
+    color: #3c4043;
+    border-radius: 0.4rem;
+    padding: 0 1.5rem;
+    margin-right: 1.5rem;
+}
+
+main .main-buttons button:hover {
+    color: #202124;
+    box-shadow: 0 0.1rem 0.1rem 0 #0000001a;
+}
