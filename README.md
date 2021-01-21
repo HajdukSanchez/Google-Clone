@@ -8,8 +8,8 @@
 
 ### Links
 
-[Platzi](https://platzi.com/)
-[Course](https://platzi.com/clases/html-practico/)
+* [Platzi](https://platzi.com/)
+* [Course](https://platzi.com/clases/html-practico/)
 
 ### By
 
