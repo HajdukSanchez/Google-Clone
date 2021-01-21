@@ -1,6 +1,6 @@
 # Google Clone 
 
-> Created with the knowledge obtaiined on "curso práctico de html y css" on Platzi
+> Created with the knowledge obtained on "curso práctico de html y css" on Platzi
 
 ### About
 
