@@ -1,17 +1,29 @@
-# Google Clone 
+# Google Clone
 
-> Created with the knowledge obtained on "curso práctico de html y css" on Platzi
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-### About
+This was a project created using CSS and HTML, is a clone of Google search page.
 
-- I created this Google Clone on the class, with the help of a Platzi teacher, in this project I learned about how to structure an HTML code and how to divide it by classes that help me with the styles coding on CSS.
+### 🚧 Built With
+Technologies of the project
+* HTML
+* CSS
 
-### Links
+<!-- CONTACT -->
+## 📫 Contact
 
-* [Platzi](https://platzi.com/)
-* [Course](https://platzi.com/clases/html-practico/)
+Jozek Hajduk - hajduksanchez.dev@gmail.com
 
-### By
+Project Link: [https://github.com/HajdukSanchez/Google-Clone](https://github.com/HajdukSanchez/Google-Clone)
 
-Jozek Andrzej Hajduk Sánchez.
-> Appreciate all of your comments to improve my skills
+[<img align="left" alt="LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />](https://www.linkedin.com/in/jozek-hajduk/)
+[<img align="left" alt="Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />](https://twitter.com/HajdukJozek)
+[<img align="left" alt="GitHub" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />](https://github.com/HajdukSanchez)
+
+<br>
+
+<!-- IMAGES -->
+## 📷 Images
+
+![Captura de pantalla 2021-12-06 062759](https://user-images.githubusercontent.com/76627513/144838350-75bb6035-fcd8-4771-82f9-f830f00d586a.png)
